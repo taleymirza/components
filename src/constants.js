@@ -5,7 +5,7 @@ export const get = key => themeGet(key, getKey(theme, key))
 
 export const COMMON_LIST = ['color', 'space']
 
-export const BORDER_LIST = ['borders', 'borderColor', 'boxShadow', 'borderRadius']
+export const BORDER_LIST = ['borders', 'borderColor', 'boxShadow']
 
 export const TYPOGRAPHY_LIST = [
   // typography props
@@ -18,7 +18,6 @@ export const TYPOGRAPHY_LIST = [
 ]
 
 export const LAYOUT_LIST = [
-  // layout props
   'display',
   'size',
   'width',
@@ -28,7 +27,8 @@ export const LAYOUT_LIST = [
   'maxWidth',
   'maxHeight',
   'overflow',
-  'verticalAlign'
+  'verticalAlign',
+  'borderRadius'
 ]
 
 export const POSITION_LIST = [
