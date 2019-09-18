@@ -3,5 +3,5 @@
   "scripts": {
     "start": "yarn workspace docs develop"
   },
-  "workspaces": ["docs", "lib"]
+  "workspaces": ["lib", "docs"]
 }
