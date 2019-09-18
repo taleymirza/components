@@ -2,4 +2,6 @@
 node_modules
 .DS_Store
 coverage/
-dist/
+lib/dist/
+lib/node_modules
+docs/node_modules

@@ -3,5 +3,7 @@
   "scripts": {
     "start": "yarn workspace docs develop"
   },
-  "workspaces": ["lib", "docs"]
+  "workspaces": {
+    "packages": ["lib", "docs"]
+  }
 }

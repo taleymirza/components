@@ -8,6 +8,7 @@
     "build": "gatsby build --prefix-paths"
   },
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@loadable/component": "^5.10.2",
     "@primer/components": "*",
     "@primer/gatsby-theme-doctocat": "^0.16.0",
@@ -20,6 +21,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
     "styled-system": "^5.1.0"
   }
 }
