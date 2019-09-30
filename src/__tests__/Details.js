@@ -57,9 +57,9 @@ describe('Details', () => {
     wrapper.unmount()
   })
 
-  xit('Does not toggle or prevent click events when you click inside', () => {
+  it('Does not toggle or prevent click events when you click inside', () => {
     const wrapper = mount(
-      <Details open>
+      <Details defaultOpen>
         {({open}) => (
           <>
             <summary>{open ? 'close' : 'open'}</summary>
